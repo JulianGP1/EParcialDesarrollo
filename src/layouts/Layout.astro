@@ -1,0 +1,143 @@
+---
+interface Props {
+	title: string;
+}
+
+const { title } = Astro.props;
+---
+
+<!doctype html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta name="description" content="Astro description" />
+		<meta name="viewport" content="width=device-width" />
+		<link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+		<meta name="generator" content={Astro.generator} />
+		<title>{title}</title>
+	</head>
+	<!-- parte negra -->
+	<body class="bg-slate-200">	
+		<div class="bg-black h-8 flex">
+			<h1 class="text-white ml-28">CompanyCenter</h1>
+			<h1 class="text-white text-xs mt-1.5 ml-6">CompanyCenter@intdus.edu.co</h1>
+			<div class="text-white ml-auto justify-between flex ">
+				<img class="h-8 mr-2" src="https://th.bing.com/th/id/R.b757f2bca8039d4a08882d38f4c1b8f0?rik=l1HvTt1fIsaMmQ&riu=http%3a%2f%2fpluspng.com%2fimg-png%2ftwitter-logo-png-logo-twitter-in-png-2500.png&ehk=qSLAOlUdmImpXk6Jj6NUgKgK5gv%2fq1TGUwvlzdeBiNA%3d&risl=&pid=ImgRaw&r=0" alt="">
+                <img class="h-6 mt-1 mr-2" src="https://logodownload.org/wp-content/uploads/2014/09/facebook-logo-1-2.png" alt="">
+				<h1 class="text-white ml-auto mr-20">menu</h1>
+			</div>
+		</div>
+<!-- header blanco -->
+	<header class="flex bg-white h-20">
+<img class="h-10 w-50 mt-3 ml-28"  src="https://th.bing.com/th/id/R.2272a3ca24c8f1c4871c92a3c8e11cde?rik=QQBOiLLZ59Ca%2fg&riu=http%3a%2f%2fwww.themezaa.com%2fhtml%2fpofo%2fimages%2flogo%402x.png&ehk=FHc9HiTXq4UNehkopDuy8xuiOfOg%2fyOUl3BYStxyVxY%3d&risl=&pid=ImgRaw&r=0" alt="">
+		<menu class="flex space-x-5 mt-5 ml-auto mr-20"> 	
+			
+			<li class="inline"><a href="#">home</a></li>
+			<li class="inline"><a href="#">shop</a></li>
+			<li class="inline"><a href="#">phone</a></li>
+			<li class="inline"><a href="#">DLC</a></li>
+			<li class="inline"><a href="#">contact</a></li>
+			<svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+				<path stroke-linecap="round" stroke-linejoin="round" d="m21 21-5.197-5.197m0 0A7.5 7.5 0 1 0 5.196 5.196a7.5 7.5 0 0 0 10.607 10.607Z" />
+			  </svg>
+			  
+	</menu>
+</header>
+<div >
+	<img style="width: 2000px; height:550px ;" src="https://th.bing.com/th/id/R.15f48f7106d77a5e3ce92666f705ff69?rik=EhliPUXxGRRuYg&riu=http%3a%2f%2fwww.quartosetc.com.br%2fwp-content%2fuploads%2f2016%2f06%2fcafe-da-manha-para-a-aprendizagem.jpeg&ehk=ZZlcC2TJBpiVFSxdLY4Es3MW0ln9V0ZoVSMkK%2fdbZb0%3d&risl=&pid=ImgRaw&r=0" alt="">
+</div>
+<!-- texto en medio -->
+<div class=" mr-96 ml-96 mt-20 mb-20" >
+	<p class="text-xs text-center ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem recusandae beatae animi facilis dignissimos ducimus impedit libero voluptas exercitationem hic provident veritatis temporibus, voluptatibus vel. Quasi doloribus repudiandae illo laudantium.</p>
+</div>
+
+<!-- bloque de imagenes  -->
+<div class="justify-between flex pl-80 pr-80 mb-40" >
+	<div class="bg-white h-60 w-40" >
+		<img src="https://th.bing.com/th/id/OIP.QKcK2f5hyp1g_6oXSCl95QHaE8?rs=1&pid=ImgDetMain" alt="">
+		<p class="text-center font-semibold"> Empleado 1</p>
+		<p class="text-center text-xs"> ciendis teli esm explicabo quod, earum corrupti libero hic esse sunt similique. Porro, laboriosam.</p>
+		<div class="flex justify-center text-center border border-spacing-1  border-slate-950 rounded-2xl " ><p  >Egress</p> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+		  </svg>
+		  </div>
+	</div><div class="bg-white h-60 w-40" >
+		<img src="https://th.bing.com/th/id/OIP.QKcK2f5hyp1g_6oXSCl95QHaE8?rs=1&pid=ImgDetMain" alt="">
+		<p class="text-center font-semibold"> Empleado 1</p>
+		<p class="text-center text-xs"> ciendis teli esm explicabo quod, earum corrupti libero hic esse sunt similique. Porro, laboriosam.</p>
+		<div class="flex justify-center text-center border border-spacing-1  border-slate-950 rounded-2xl " ><p  >Egress</p> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+		  </svg>
+		  </div>
+	</div><div class="bg-white h-60 w-40" >
+		<img src="https://th.bing.com/th/id/OIP.QKcK2f5hyp1g_6oXSCl95QHaE8?rs=1&pid=ImgDetMain" alt="">
+		<p class="text-center font-semibold"> Empleado 1</p>
+		<p class="text-center text-xs"> ciendis teli esm explicabo quod, earum corrupti libero hic esse sunt similique. Porro, laboriosam.</p>
+		<div class="flex justify-center text-center border border-spacing-1  border-slate-950 rounded-2xl " ><p  >Egress</p> <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6 ">
+			<path stroke-linecap="round" stroke-linejoin="round" d="M17.25 8.25 21 12m0 0-3.75 3.75M21 12H3" />
+		  </svg>
+		  </div>
+	</div>
+</div>
+ <!-- bloque de tres -->
+ <div class="flex h-84 justify-between ml-8 mr-8">
+	<div class="relative">
+		<img src="https://www.lubricantesenvenezuela.com/wp-content/uploads/2020/10/piezas-de-automoviles.jpg" alt="" class="w-96 h-64">
+		<div class="absolute top-24 bottom-0 left-2 right-41   justify-center ">
+		  <p class="text-white text-lg font-bold  ">Motor N1</p>
+		  <p >El mejor motor </p>
+		</div>
+	  </div>
+	  <div class="relative">
+		<img src="https://www.lubricantesenvenezuela.com/wp-content/uploads/2020/10/piezas-de-automoviles.jpg" alt="" class="w-96 h-64">
+		<div class="absolute top-24 bottom-0 left-2 right-41   justify-center ">
+		  <p class="text-white text-lg font-bold  ">Motor N1</p>
+		  <p >El mejor motor </p>
+		</div>
+	  </div>
+	  <div class="relative">
+		<img src="https://www.lubricantesenvenezuela.com/wp-content/uploads/2020/10/piezas-de-automoviles.jpg" alt="" class="w-96 h-64">
+		<div class="absolute top-24 bottom-0 left-2 right-41   justify-center ">
+		  <p class="text-white text-lg font-bold  ">Motor N1</p>
+		  <p >El mejor motor </p>
+		</div>
+	  </div>
+ </div>
+ <!-- texto en medio -->
+<div class=" mr-96 ml-96 mt-20 mb-20" >
+	<p class="text-xs text-center ">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quidem recusandae beatae animi facilis dignissimos ducimus impedit libero voluptas exercitationem hic provident veritatis temporibus, voluptatibus vel. Quasi doloribus repudiandae illo laudantium.</p>
+</div>
+<!-- ultimas tres -->
+<div class="justify-between flex pl-80 pr-80 mb-40" >
+	<div class="bg-white h-60 w-40" >
+		<img src="https://th.bing.com/th/id/OIP.QKcK2f5hyp1g_6oXSCl95QHaE8?rs=1&pid=ImgDetMain" alt="">
+		<p class="text-center text-xs"> ciendis teli esm explicabo quod, earum corrupti libero hic esse sunt similique. Porro, laboriosam.</p>
+		  </div>
+	<div class="bg-white h-60 w-40" >
+		<img src="https://th.bing.com/th/id/OIP.QKcK2f5hyp1g_6oXSCl95QHaE8?rs=1&pid=ImgDetMain" alt="">
+		<p class="text-center text-xs"> ciendis teli esm explicabo quod, earum corrupti libero hic esse sunt similique. Porro, laboriosam.</p>
+		  
+	</div><div class="bg-white h-60 w-40" >
+		<img src="https://th.bing.com/th/id/OIP.QKcK2f5hyp1g_6oXSCl95QHaE8?rs=1&pid=ImgDetMain" alt="">
+		<p class="text-center text-xs"> ciendis teli esm explicabo quod, earum corrupti libero hic esse sunt similique. Porro, laboriosam.</p>
+		  </div>
+	</div>
+	<div class="bg-red-500 flex justify-center">
+		<p class="text-white ml-40 h-12 pt-3">lorem unilited and posiblotiy ?</p>
+		<p class="bg-white border border-spacing-1  border-slate-950 rounded-2xl h-8 my-auto ">accede a tu cuenta</p>
+	</div>
+	<!-- pie de pagina -->
+	<div class="bg-slate-900 h-36 justify-between flex " >
+		<div class="ml-96 mt-10"><p>asdmoaismdoai</p>
+		<p>aosdpoamsd</p></div>
+		<div class="mt-10"><p>asdmoaismdoai</p>
+		<p>aosdpoamsd</p></div>
+		<div class="mr-96 mt-10" ><img style="height: 34px;" src="https://th.bing.com/th/id/R.2272a3ca24c8f1c4871c92a3c8e11cde?rik=QQBOiLLZ59Ca%2fg&riu=http%3a%2f%2fwww.themezaa.com%2fhtml%2fpofo%2fimages%2flogo%402x.png&ehk=FHc9HiTXq4UNehkopDuy8xuiOfOg%2fyOUl3BYStxyVxY%3d&risl=&pid=ImgRaw&r=0"  alt="">
+		<p class="border-b-2 border-red-700 ">aosdpoamsd</p></div>
+
+	</div>
+	</body>
+</html>
+<style is:global>
+	
+</style>
